@@ -24,7 +24,15 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - Dong, Erqun, et al. “[**Pair-Navi: Peer-to-Peer Indoor Navigation with Mobile Visual SLAM.**](https://cswu.me/papers/infocom19_pairnavi.pdf)” (ICCC 2019)
   - Tsinghua, [Code](https://github.com/Horacehxw/Dynamic_ORB_SLAM2), Video, [Slides](https://slidetodoc.com/pairnavi-peertopeer-indoor-navigation-with-mobile-visual-slam/).
 - Ji Tete, et al. “**[Towards Real-Time Semantic RGB-D SLAM in Dynamic Environments](https://arxiv.org/abs/2104.01316v1)**.” (ICRA 2021)
-  - 
+- Palazzolo Emanuele, et al. “**[ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals.](https://arxiv.org/abs/1905.02082v3)**” (IROS 2019)
+  - [code](https://github.com/PRBonn/refusion),[video](https://youtu.be/1P9ZfIS5-p4).University of Bonn.
+- Arora Mehul, et al. ***[Mapping the Static Parts of Dynamic Scenes from 3D LiDAR Point Clouds Exploiting Ground Segmentation](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/arora2021ecmr.pdf)***. p. 6.
+- Chen Xieyuanli, et al. “Moving Object Segmentation in 3D LiDAR Data: A Learning-Based Approach Exploiting Sequential Data.” *IEEE Robotics and Automation Letters*, 2021, pp. 1–1. *DOI.org (Crossref)*, https://doi.org/10.1109/LRA.2021.3093567.
+  - [code](https://github.com/PRBonn/LiDAR-MOS). [video](https://www.youtube.com/watch?v=NHvsYhk4dhw). University of Bonn.
+- Zhang Tianwei, et al. “[**FlowFusion: Dynamic Dense RGB-D SLAM Based on Optical Flow.**](http://arxiv.org/abs/2003.05102.)”(ICRA 2020)
+  - code. [video](https://youtu.be/6yPGDdwKFLA).
+- Zhang Tianwei, et al. “**[AcousticFusion: Fusing Sound Source Localization to Visual SLAM in Dynamic Environments.](http://arxiv.org/abs/2108.01246)**”,IROS 2021
+  - [video](https://youtu.be/8eNikzp9LIQ). 
 
 # Dynamic Object Detection and ***Tracking***
 
@@ -67,13 +75,31 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
   - Tsinghua, code, [video](https://youtu.be/paK-WCQpX-Y).[slides](https://cg.cs.tsinghua.edu.cn/people/~huangjh/clustervo-slides.pdf).
 
-- Liu, Yuzhen, et al. “A Switching-Coupled Backend for Simultaneous Localization and Dynamic Object Tracking.” (RAL 2021)
+- Liu, Yuzhen, et al. “**[A Switching-Coupled Backend for Simultaneous Localization and Dynamic Object Tracking.](https://github.com/zhuhu00/Awesome_Dynamic_SLAM/tree/main/pdfs/liu_2021_SwitchingCoupled.pdf)**” (RAL 2021)
 
   - Tsinghua
 
+- Yang Charig, et al. “**[Self-Supervised Video Object Segmentation by Motion Grouping](http://arxiv.org/abs/2104.07658)**.”(ICCV 2021)
 
+  - [Project page](https://charigyang.github.io/motiongroup/).
 
+- Long Ran, et al. “**[RigidFusion: Robot Localisation and Mapping in Environments with Large Dynamic Rigid Objects](http://arxiv.org/abs/2010.10841)**.” ,(RAL 2021)
 
+  - [**project page**](https://conferences.inf.ed.ac.uk/rigidfusion/).code, video, 
+
+- Yang Bohong, et al. “**[Multi-Classes and Motion Properties for Concurrent Visual SLAM in Dynamic Environments.](https://doi.org/10.1109/TMM.2021.3110667)**” *IEEE Transactions on Multimedia*, 2021
+
+- Yang Gengshan and Ramanan Deva. “**[Learning to Segment Rigid Motions from Two Frames.](http://arxiv.org/abs/2101.03694)**” CVPR 2021
+
+  - [Project page](https://www.contrib.andrew.cmu.edu/~gengshay/cvpr21rigidmask.html).
+
+- Thomas Hugues, et al. “**[Learning Spatiotemporal Occupancy Grid Maps for Lifelong Navigation in Dynamic Scenes.](http://arxiv.org/abs/2108.10585)**” 
+
+  - [code](https://github.com/utiasASRL/Deep-Collison-Checker).
+
+- Jung Dongki, et al. “**[DnD: Dense Depth Estimation in Crowded Dynamic Indoor Scenes.](http://arxiv.org/abs/2108.05615)**” (ICCV 2021)
+
+  - code, video.
 
 # Object SLAM(Data Association)
 
@@ -81,8 +107,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - [code](https://github.com/shichaoy/cube_slam). [video](https://youtu.be/QnVlexXi9_c). Vision
 - Salas-Moreno Renato F., et al. “**[SLAM++: Simultaneous Localisation and Mapping at the Level of Objects.](https://doi.org/10/ggmwnd)**” (CVPR 2013)
   - code, [video](https://youtu.be/tmrAh1CqCRo),
-
-- 
+- Nicholson Lachlan, et al. “**[QuadricSLAM: Dual Quadrics From Object Detections as Landmarks in Object-Oriented SLAM](https://arxiv.org/abs/1804.04011)**.” (RAL-2018)
+  - [**Project page**](https://nikosuenderhauf.github.io/semanticslam.ai/quadricslam.html),[code](https://github.com/tiev-tongji/quadric_slam-deprecated).
+- Wu Yanmin, et al. “[**EAO-SLAM: Monocular Semi-Dense Object SLAM Based on Ensemble Data Association**](https://arxiv.org/abs/2004.12730).” *2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Oct. 2020, pp. 4966–73. *arXiv.org*, https://doi.org/10.1109/IROS45743.2020.9341757.
+  - [Project page](https://yanmin-wu.github.io/project/eaoslam/). [code](https://github.com/yanmin-wu/EAO-SLAM).  
 
 # Researchers
 
+1. 
