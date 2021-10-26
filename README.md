@@ -60,6 +60,10 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 - Kuen-Han Lin and Chieh-Chih Wang. “**[Stereo-Based Simultaneous Localization, Mapping and Moving Object Tracking.](https://doi.org/10.1109/IROS.2010.5649653)**” IROS 2010
 
+- Fu, H.; Xue, H.; Hu, X.; Liu, B. **[LiDAR Data Enrichment by Fusing Spatial and Temporal Adjacent Frames](https://doi.org/10.3390/rs13183640)**. *Remote Sens.* **2021**, *13*, 3640. 
+
+- Qian, Chenglong, et al. ***RF-LIO: Removal-First Tightly-Coupled Lidar Inertial Odometry in High Dynamic Environments***. p. 8. IROS2021, **XJTU**
+
 # Dynamic Object Detection and ***Tracking***
 
 - “**[AirDOS: Dynamic SLAM benefits from Articulated Objects,](http://arxiv.org/abs/2109.09903)**” Qiu Yuheng, et al. 2021(Arxiv)
