@@ -34,7 +34,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   
 - Arora Mehul, et al. ***[Mapping the Static Parts of Dynamic Scenes from 3D LiDAR Point Clouds Exploiting Ground Segmentation](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/arora2021ecmr.pdf)***. p. 6.
 
-- Chen Xieyuanli, et al. “Moving Object Segmentation in 3D LiDAR Data: A Learning-Based Approach Exploiting Sequential Data.” *IEEE Robotics and Automation Letters*, 2021, pp. 1–1. *DOI.org (Crossref)*, https://doi.org/10.1109/LRA.2021.3093567.
+- Chen Xieyuanli, et al. “**[Moving Object Segmentation in 3D LiDAR Data: A Learning-Based Approach Exploiting Sequential Data](https://www.ipb.uni-bonn.de/pdfs/chen2021ral-iros.pdf)**.” *IEEE Robotics and Automation Letters*, 2021
   - [code](https://github.com/PRBonn/LiDAR-MOS). [video](https://www.youtube.com/watch?v=NHvsYhk4dhw). University of Bonn.
   
 - Zhang Tianwei, et al. “[**FlowFusion: Dynamic Dense RGB-D SLAM Based on Optical Flow.**](http://arxiv.org/abs/2003.05102.)”(ICRA 2020)
@@ -63,6 +63,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - Fu, H.; Xue, H.; Hu, X.; Liu, B. **[LiDAR Data Enrichment by Fusing Spatial and Temporal Adjacent Frames](https://doi.org/10.3390/rs13183640)**. *Remote Sens.* **2021**, *13*, 3640. 
 
 - Qian, Chenglong, et al. ***RF-LIO: Removal-First Tightly-Coupled Lidar Inertial Odometry in High Dynamic Environments***. p. 8. IROS2021, **XJTU**
+
+- K. Minoda, F. Schilling, V. Wüest, D. Floreano, and T. Yairi, “**[VIODE: A Simulated Dataset to Address the Challenges of Visual-Inertial Odometry in Dynamic Environments,](https://doi.org/10.1109/LRA.2021.3058073)**”RAL 2021
+
+  - 动态环境的数据集，包括了静态，动态等级的场景，感觉适合用来作为验证。
+  - 东京大学，[code](https://github.com/kminoda/VIODE)
 
 # Dynamic Object Detection and ***Tracking***
 
@@ -150,6 +155,12 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - **[Project page](https://vision.in.tum.de/research/monorec)**. [code](https://github.com/Brummi/MonoRec). [video](https://youtu.be/-gDSBIm0vgk). [video 2](https://youtu.be/-gDSBIm0vgk).
 
 - Liu Yu, et al. “Dynamic RGB-D SLAM Based on Static Probability and Observation Number.” *IEEE Transactions on Instrumentation and Measurement*, vol. 70, 2021, pp. 1–11. *IEEE Xplore*, https://doi.org/10.1109/TIM.2021.3089228.
+
+- P. Li, T. Qin, and S. Shen, “**[Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](http://arxiv.org/abs/1807.02062)**,” arXiv 2018
+
+  - 沈邵颉组，有VINS作者
+
+- G. B. Nair *et al.*, “**[Multi-object Monocular SLAM for Dynamic Environments](http://arxiv.org/abs/2002.03528)**,” IV2020
 
 # Object SLAM(Data Association)
 
