@@ -73,6 +73,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
   - 浙大，使用点的关联进行去除。
 
+- C. Huang, H. Lin, H. Lin, H. Liu, Z. Gao, and L. Huang, “YO-VIO: Robust Multi-Sensor Semantic Fusion Localization in Dynamic Indoor Environments,” in 2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 2021.
+  - 使用yolo和光流对运动对象进行判断，去除特征点后进行定位
+  - VIO的结合
+
+
 
 # Dynamic Object Detection and ***Tracking***
 
