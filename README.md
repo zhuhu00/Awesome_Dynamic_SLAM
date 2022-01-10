@@ -41,7 +41,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - code. [video](https://youtu.be/6yPGDdwKFLA).
   
 - Zhang Tianwei, et al. “**[AcousticFusion: Fusing Sound Source Localization to Visual SLAM in Dynamic Environments.](http://arxiv.org/abs/2108.01246)**”,IROS 2021
-  - [video](https://youtu.be/8eNikzp9LIQ). 
+  - [video](https://youtu.be/8eNikzp9LIQ). 结合声音信号
   
 - 1. Liu Yubao and Miura Jun. “[**RDS-SLAM: Real-Time Dynamic SLAM Using Semantic Segmentation Methods.**](https://doi.org/10.1109/ACCESS.2021.3050617)” *IEEE Access* 2021
 
@@ -68,6 +68,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
   - 动态环境的数据集，包括了静态，动态等级的场景，感觉适合用来作为验证。
   - 东京大学，[code](https://github.com/kminoda/VIODE)
+  
+- W. Dai, Y. Zhang, P. Li, Z. Fang, and S. Scherer, “**[RGB-D SLAM in Dynamic Environments Using Point Correlations](https://doi.org/10.1109/TPAMI.2020.3010942)**,” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, pp. 1–1, 2020
+
+  - 浙大，使用点的关联进行去除。
+
 
 # Dynamic Object Detection and ***Tracking***
 
@@ -161,6 +166,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - 沈邵颉组，有VINS作者
 
 - G. B. Nair *et al.*, “**[Multi-object Monocular SLAM for Dynamic Environments](http://arxiv.org/abs/2002.03528)**,” IV2020
+
+- M. Rünz and L. Agapito, “[**Co-fusion: Real-time segmentation, tracking and fusion of multiple objects,**](https://doi.org/10.1109/ICRA.2017.7989518)” in *2017 IEEE International Conference on Robotics and Automation (ICRA)*, May 2017, pp. 4471–4478.
+
+  - [code](https://github.com/martinruenz/co-fusion), 
+
 
 # Object SLAM(Data Association)
 
