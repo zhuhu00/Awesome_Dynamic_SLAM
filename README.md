@@ -177,7 +177,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - [code](https://github.com/martinruenz/co-fusion), 
 
 
-# Object SLAM(Data Association)
+# Object SLAM & Application
 
 - **CubeSLAM: Monocular 3D Object SLAM**, IEEE Transactions on Robotics 2019, S. Yang, S. Scherer [**PDF**](https://arxiv.org/abs/1806.00557)
   - [code](https://github.com/shichaoy/cube_slam). [video](https://youtu.be/QnVlexXi9_c). Vision
@@ -187,6 +187,12 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - [**Project page**](https://nikosuenderhauf.github.io/semanticslam.ai/quadricslam.html), [code](https://github.com/tiev-tongji/quadric_slam-deprecated).
 - Wu Yanmin, et al. “[**EAO-SLAM: Monocular Semi-Dense Object SLAM Based on Ensemble Data Association**](https://arxiv.org/abs/2004.12730).” *2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Oct. 2020, pp. 4966–73. *arXiv.org*, https://doi.org/10.1109/IROS45743.2020.9341757.
   - [Project page](https://yanmin-wu.github.io/project/eaoslam/). [code](https://github.com/yanmin-wu/EAO-SLAM).  
+- H. Osman, N. Darwish, and A. Bayoumi, “LoopNet: Where to Focus Detecting Loop Closures in Dynamic Scenes,” *IEEE Robotics and Automation Letters*, pp. 1–1, 2022, doi: [10.1109/LRA.2022.3142901](https://doi.org/10.1109/LRA.2022.3142901).
+  - 动态环境中的回环检测，网络。code，video
+
+- M. N. Finean, L. Petrović, W. Merkt, I. Marković, and I. Havoutis, “**[Motion Planning in Dynamic Environments Using Context-Aware Human Trajectory Prediction](http://arxiv.org/abs/2201.05058)**,” *arXiv:2201.05058 [cs]*, Jan. 2022.
+  - 含有人的动态环境的导航，**[code](https://github.com/ori-drs/integrated-dynamic-motion-planning-framework)**，**[video](https://www.youtube.com/watch?v=gdC3mpZNjG4&t=5s)**。类似避障和规划类的
+
 
 # Researchers
 
