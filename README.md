@@ -77,6 +77,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - 使用yolo和光流对运动对象进行判断，去除特征点后进行定位
   - VIO的结合
 
+- Dynamic-VINS：RGB-D Inertial Odometry for a Resource-restricted Robot in Dynamic Environments. 
+  - 分割+运动点置信度，[code](https://github.com/HITSZ-NRSL/Dynamic-VINS),[video](https://www.bilibili.com/video/BV1bF411t7mx)
+
 
 
 # Dynamic Object Detection and ***Tracking***
@@ -168,7 +171,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 - P. Li, T. Qin, and S. Shen, “**[Stereo Vision-based Semantic 3D Object and Ego-motion Tracking for Autonomous Driving](http://arxiv.org/abs/1807.02062)**,” arXiv 2018
 
-  - 沈邵颉组，有VINS作者
+  - 沈邵颉老师组
 
 - G. B. Nair *et al.*, “**[Multi-object Monocular SLAM for Dynamic Environments](http://arxiv.org/abs/2002.03528)**,” IV2020
 
