@@ -179,6 +179,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
   - [code](https://github.com/martinruenz/co-fusion), 
 
+- [TwistSLAM: Constrained SLAM in Dynamic Environment](https://arxiv.org/pdf/2202.12384),
+  - S3LAM的后续，使用全景分割作为检测的前端
+
 
 # Object SLAM & Application
 
