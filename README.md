@@ -229,3 +229,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 1. RDS-SLAM: real-time dynamic SLAM using semantic segmentation methods
 2. KMOP-vSLAM: Dynamic Visual SLAM for RGB-D Cameras using K-means and OpenPose
 3. RDMO-SLAM: Real-time Visual SLAM for Dynamic Environments using Semantic Label Prediction with Optical Flow
+#### 3. Guoquan Huang(SLAMMOT)
+
+
+#### 4. Shenshao Jie(MOT)
