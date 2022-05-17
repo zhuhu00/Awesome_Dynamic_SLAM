@@ -1,7 +1,7 @@
 # Awesome_Dynamic_SLAM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 The following paper are the papers that focuses on the **SLAM in dynamic Environments**. In the dynamic environment, there are two kinds of robust SLAM: First is **detection & removal**. Another is **detection & tracking**. Although the mapping part in dynamic environment is not my focus, but I will also put some articles yet also very interesting.
 
-> Vision means that the pipeline is built with camera. Others are the same, such as lidar, radar, sensor fusion.
+> **Vision** means that the pipeline is built with camera. Others are the same, such as **lidar**, **radar**, **sensor fusion**.
 
 ------
 
@@ -17,6 +17,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 - Pfreundschuh, Patrick, et al. “**[Dynamic Object Aware LiDAR SLAM Based on Automatic Generation of Training Data.](http://arxiv.org/abs/2104.03657)**” (*ICRA* *2021*)
   - **ETH ASL**,code, [video](https://youtu.be/LcDxd97r1Gc), [**dataset**](https://projects.asl.ethz.ch/datasets/doals), Lidar
+  - 作者基于deep-learning（3D-MiniNet网络）进行实时3D动态物体检测，滤除动态物体后的点云被喂给LOAM，进行常规的激光SLAM。提供了学习的方法是属于无监督的方法。
   
 - Canovas Bruce, et al. “[**Speed and Memory Efficient Dense RGB-D SLAM in Dynamic Scenes.**](https://doi.org/10.1109/IROS45743.2020.9341542)” (*IROS* 2020)
   - **GIPSA-lab**, [code](https://github.com/BruceCanovas/supersurfel_fusion), [video](https://youtu.be/hzzVVHUAO74)
