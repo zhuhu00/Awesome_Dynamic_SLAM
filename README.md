@@ -16,10 +16,14 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 # Dynamic Object Detection and *Removal*
 
+- [DeFlowSLAM: Self-Supervised Scene Motion Decomposition for Dynamic Dense  SLAM](https://arxiv.org/pdf/2207.08794v1)
+  
+  - 浙江大学，貌似是DROID-SLAM得部分，将光流分成了动态物体和静态，分别进行后续的操作。效果看起来也很不错。[page](https://zju3dv.github.io/deflowslam/)，[code](https://github.com/zju3dv/DeFlowSLAM)
+  
 - [Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving  Object Segmentation](https://arxiv.org/pdf/2207.02201)
-  
+
   - 毫末智行，**[code](https://github.com/haomo-ai/MotionSeg3D)**，动态检测
-  
+
 - [[2203.03923] ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments](https://arxiv.org/pdf/2203.03923) IROS 2022
 
   - code：https://github.com/HaisenbergPeng/ROLL
