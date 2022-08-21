@@ -173,6 +173,10 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 
 # Dynamic Object Detection and ***Tracking***
+- [Visual-Inertial Multi-Instance Dynamic SLAM with Object-level  Relocalisation (2022)](https://arxiv.org/pdf/2208.04274.pdf)
+  - IROS 2022，实验室网址：https://mlr.in.tum.de/research/semanicobjectlevelanddynamicslam
+- [Learning to Complete Object Shapes for Object-level Mapping in Dynamic  Scenes (2022)](https://arxiv.org/pdf/2208.05067.pdf)，与上面是同一个作者，
+  - 都是基于MID-Fusion做的东西。
 
 - T. Ma and Y. Ou, “[**MLO: Multi-Object Tracking and Lidar Odometry in Dynamic Environment**](http://arxiv.org/abs/2204.11621).” arXiv, Apr. 29, 2022
   - SLAM+MOT了
