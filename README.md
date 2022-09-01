@@ -15,6 +15,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - [**State of the Art on 3D Reconstruction with RGB-D Cameras**](https://www.cg.informatik.uni-siegen.de/data/Publications/2018/star1009-main.pdf). Michael Zollhöfer. Stanford University. 2018
 
 # Dynamic Object Detection and *Removal*
+- (IEEE RA-L'22)[DynaVINS: A Visual-Inertial SLAM for Dynamic Environments](https://arxiv.org/pdf/2208.11500), code:https://github.com/url-kaist/dynaVINS, 非深度学习结合的方案，而是使用约束对运动对象上的特征点进行去除
 
 - [DeFlowSLAM: Self-Supervised Scene Motion Decomposition for Dynamic Dense  SLAM](https://arxiv.org/pdf/2207.08794v1)
   
