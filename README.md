@@ -174,6 +174,8 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 
 # Dynamic Object Detection and ***Tracking***
+- [TwistSLAM++: Fusing multiple modalities for accurate dynamic semantic  SLAM (2022)](https://arxiv.org/pdf/2209.07888.pdf)
+  - SLAMMOT
 - [Visual-Inertial Multi-Instance Dynamic SLAM with Object-level  Relocalisation (2022)](https://arxiv.org/pdf/2208.04274.pdf)
   - IROS 2022，实验室网址：https://mlr.in.tum.de/research/semanicobjectlevelanddynamicslam
 - [Learning to Complete Object Shapes for Object-level Mapping in Dynamic  Scenes (2022)](https://arxiv.org/pdf/2208.05067.pdf)，与上面是同一个作者，
