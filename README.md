@@ -146,6 +146,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - Soares João Carlos Virgolino, et al. “**[Crowd-SLAM: Visual SLAM Towards Crowded Environments Using Object Detection.](https://doi.org/10.1007/s10846-021-01414-1)**” *Journal of Intelligent & Robotic Systems* 2021
 
   - [code](https://github.com/virgolinosoares/Crowd-SLAM), video
+  - [Visual Localization and Mapping in Dynamic and Changing Environments (2022)](https://arxiv.org/pdf/2209.10710.pdf), 之前的是在orbslam2上，最新的是orbslam3.
 
 - Kaveti Pushyami and Singh Hanumant. “**[A Light Field Front-End for Robust SLAM in Dynamic Environments.](http://arxiv.org/abs/2012.10714)**”.
 
