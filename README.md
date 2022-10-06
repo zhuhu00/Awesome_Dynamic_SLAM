@@ -175,6 +175,8 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 
 # Dynamic Object Detection and ***Tracking***
+
+- [MOTSLAM: MOT-assisted monocular dynamic SLAM using single-view depth  estimation (2022)](https://arxiv.org/pdf/2210.02038.pdf)
 - [TwistSLAM++: Fusing multiple modalities for accurate dynamic semantic  SLAM (2022)](https://arxiv.org/pdf/2209.07888.pdf)
   - SLAMMOT
 - [Visual-Inertial Multi-Instance Dynamic SLAM with Object-level  Relocalisation (2022)](https://arxiv.org/pdf/2208.04274.pdf)
