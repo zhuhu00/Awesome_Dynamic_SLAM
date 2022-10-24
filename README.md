@@ -176,6 +176,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 # Dynamic Object Detection and ***Tracking***
 
+- [DirectTracker: 3D Multi-Object Tracking Using Direct Image Alignment and  Photometric Bundle Adjustment (2022)](https://arxiv.org/pdf/2209.14965.pdf)
+  - 直接法的动态物体追踪，[page](https://vision.in.tum.de/research/vslam/directtracker)
+
 - [MOTSLAM: MOT-assisted monocular dynamic SLAM using single-view depth  estimation (2022)](https://arxiv.org/pdf/2210.02038.pdf)
 - [TwistSLAM++: Fusing multiple modalities for accurate dynamic semantic  SLAM (2022)](https://arxiv.org/pdf/2209.07888.pdf)
   - SLAMMOT
@@ -292,6 +295,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - S3LAM的后续，使用全景分割作为检测的前端
 
 # Object SLAM & Application
+
+- [3D VSG: Long-term Semantic Scene Change Prediction through 3D Variable  Scene Graphs (2022)](https://arxiv.org/pdf/2209.07896.pdf) 
+  
+  - 语义场景的变化检测
+  - code：https://github.com/ethz-asl/3d_vsg
 
 - **CubeSLAM: Monocular 3D Object SLAM**, IEEE Transactions on Robotics 2019, S. Yang, S. Scherer [**PDF**](https://arxiv.org/abs/1806.00557)
   - [code](https://github.com/shichaoy/cube_slam). [video](https://youtu.be/QnVlexXi9_c). Vision
