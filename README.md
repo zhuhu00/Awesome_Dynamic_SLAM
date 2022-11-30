@@ -176,6 +176,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 # Dynamic Object Detection and ***Tracking***
 
+- [DyOb-SLAM : Dynamic Object Tracking SLAM System (2022)](https://arxiv.org/pdf/2211.01941.pdf)
+  - VDO-SLAM+DynaSLAM的结合。。。
+
 - [DynaVIG: Monocular Vision/INS/GNSS Integrated Navigation and Object  Tracking for AGV in Dynamic Scenes (2022)](https://arxiv.org/pdf/2211.14478.pdf)
 
 - [DirectTracker: 3D Multi-Object Tracking Using Direct Image Alignment and  Photometric Bundle Adjustment (2022)](https://arxiv.org/pdf/2209.14965.pdf)
