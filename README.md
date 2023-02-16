@@ -15,6 +15,11 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - [**State of the Art on 3D Reconstruction with RGB-D Cameras**](https://www.cg.informatik.uni-siegen.de/data/Publications/2018/star1009-main.pdf). Michael Zollhöfer. Stanford University. 2018
 
 # Dynamic Object Detection and *Removal*
+
+- (IROS 2022)[CFP-SLAM: A Real-time Visual SLAM Based on Coarse-to-Fine Probability in Dynamic Environments](https://arxiv.org/pdf/2202.01938v2.pdf)
+
+- (IROS 2022) [DRG-SLAM: A Semantic RGB-D SLAM using Geometric Features for Indoor Dynamic Scene](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981238)
+
 - (IEEE RA-L'22)[DynaVINS: A Visual-Inertial SLAM for Dynamic Environments](https://arxiv.org/pdf/2208.11500), code:https://github.com/url-kaist/dynaVINS, 非深度学习结合的方案，而是使用约束对运动对象上的特征点进行去除
 
 - [DeFlowSLAM: Self-Supervised Scene Motion Decomposition for Dynamic Dense  SLAM](https://arxiv.org/pdf/2207.08794v1)
@@ -136,7 +141,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 - 1. Liu Yubao and Miura Jun. “[**RDS-SLAM: Real-Time Dynamic SLAM Using Semantic Segmentation Methods.**](https://doi.org/10.1109/ACCESS.2021.3050617)” *IEEE Access* 2021
 
-  2. Liu Yubao and Miura Jun. “RDMO-SLAM: Real-Time Visual SLAM for Dynamic Environments Using Semantic Label Prediction With Optical Flow.” *IEEE Access*, vol. 9, 2021, pp. 106981–97. *IEEE Xplore*, https://doi.org/10.1109/ACCESS.2021.3100426.
+  1. Liu Yubao and Miura Jun. “RDMO-SLAM: Real-Time Visual SLAM for Dynamic Environments Using Semantic Label Prediction With Optical Flow.” *IEEE Access*, vol. 9, 2021, pp. 106981–97. *IEEE Xplore*, https://doi.org/10.1109/ACCESS.2021.3100426.
 
   - [code](https://github.com/yubaoliu/RDS-SLAM.git
     ), video.
@@ -169,10 +174,8 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
   - 使用yolo和光流对运动对象进行判断，去除特征点后进行定位
   - VIO的结合
 
-- Dynamic-VINS：RGB-D Inertial Odometry for a Resource-restricted Robot in Dynamic Environments. 
+- (IROS 2022)Dynamic-VINS：RGB-D Inertial Odometry for a Resource-restricted Robot in Dynamic Environments. 
   - 分割+运动点置信度，[code](https://github.com/HITSZ-NRSL/Dynamic-VINS),[video](https://www.bilibili.com/video/BV1bF411t7mx)
-
-
 
 # Dynamic Object Detection and ***Tracking***
 
@@ -184,10 +187,10 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - [DirectTracker: 3D Multi-Object Tracking Using Direct Image Alignment and  Photometric Bundle Adjustment (2022)](https://arxiv.org/pdf/2209.14965.pdf)
   - 直接法的动态物体追踪，[page](https://vision.in.tum.de/research/vslam/directtracker)
 
-- [MOTSLAM: MOT-assisted monocular dynamic SLAM using single-view depth  estimation (2022)](https://arxiv.org/pdf/2210.02038.pdf)
+- (IROS 2022)[MOTSLAM: MOT-assisted monocular dynamic SLAM using single-view depth  estimation (2022)](https://arxiv.org/pdf/2210.02038.pdf)
 - [TwistSLAM++: Fusing multiple modalities for accurate dynamic semantic  SLAM (2022)](https://arxiv.org/pdf/2209.07888.pdf)
   - SLAMMOT
-- [Visual-Inertial Multi-Instance Dynamic SLAM with Object-level  Relocalisation (2022)](https://arxiv.org/pdf/2208.04274.pdf)
+- (IROS 2022)[Visual-Inertial Multi-Instance Dynamic SLAM with Object-level  Relocalisation (2022)](https://arxiv.org/pdf/2208.04274.pdf)
   - IROS 2022，实验室网址：https://mlr.in.tum.de/research/semanicobjectlevelanddynamicslam
 - [Learning to Complete Object Shapes for Object-level Mapping in Dynamic  Scenes (2022)](https://arxiv.org/pdf/2208.05067.pdf)，与上面是同一个作者，
   - 都是基于MID-Fusion做的东西。
@@ -201,7 +204,7 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - T. Ma and Y. Ou, “**[MLO: Multi-Object Tracking and Lidar Odometry in Dynamic Environment](http://arxiv.org/abs/2204.11621)**.” , ArXiv 2022
   - 基于LOAM的目标追踪，分别对运动对象和自身进行估计，之后进行融合。属于松耦合的感觉
 
-- R. Long, C. Rauch, T. Zhang, V. Ivan, T. L. Lam, and S. Vijayakumar, “**[RGB-D SLAM in Indoor Planar Environments with Multiple Large Dynamic Objects](http://arxiv.org/abs/2203.02882)**,” 
+- (IROS 2022)R. Long, C. Rauch, T. Zhang, V. Ivan, T. L. Lam, and S. Vijayakumar, “**[RGB-D SLAM in Indoor Planar Environments with Multiple Large Dynamic Objects](http://arxiv.org/abs/2203.02882)**,” 
   - 先做了动态移除，这是动态追踪的。在结构化环境（面）中进行SLAM+MOT
 
 - “**[AirDOS: Dynamic SLAM benefits from Articulated Objects,](http://arxiv.org/abs/2109.09903)**” Qiu Yuheng, et al. 2021(Arxiv)
@@ -296,10 +299,10 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
   - [code](https://github.com/martinruenz/co-fusion), 
 
-- [TwistSLAM: Constrained SLAM in Dynamic Environment](https://arxiv.org/pdf/2202.12384),
+- (IROS 2022)[TwistSLAM: Constrained SLAM in Dynamic Environment](https://arxiv.org/pdf/2202.12384),
   - S3LAM的后续，使用全景分割作为检测的前端
 
-# Object SLAM & Application
+# Other Application
 
 - [3D VSG: Long-term Semantic Scene Change Prediction through 3D Variable  Scene Graphs (2022)](https://arxiv.org/pdf/2209.07896.pdf) 
   
@@ -320,34 +323,14 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - M. N. Finean, L. Petrović, W. Merkt, I. Marković, and I. Havoutis, “**[Motion Planning in Dynamic Environments Using Context-Aware Human Trajectory Prediction](http://arxiv.org/abs/2201.05058)**,” *arXiv:2201.05058 [cs]*, Jan. 2022.
   - 含有人的动态环境的导航，**[code](https://github.com/ori-drs/integrated-dynamic-motion-planning-framework)**，**[video](https://www.youtube.com/watch?v=gdC3mpZNjG4&t=5s)**。类似避障和规划类的
 
+- (IROS 2022)[Extrinsic Camera Calibration from A Moving Person](https://vision.ist.i.kyoto-u.ac.jp/pubs/SLee_RAL22.pdf)
 
+- (IROS 2022)[ACEFusion : Accelerated and Energy-Efficient Semantic 3D Reconstruction of Dynamic Scenes](https://pure.manchester.ac.uk/ws/portalfiles/portal/228491926/ACEFusion_IROS2022.pdf)
+
+- (IROS 2022)[Efficient 2D LIDAR-Based Map Updating For Long-Term Operations in Dynamic Environments](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982047)
+
+- (IROS 2022)[Detecting Invalid Map Merges in Lifelong SLAM](https://arxiv.org/pdf/2211.03423v1.pdf)
+- (IROS 2022)[Probabilistic Object Maps for Long-Term Robot Localization](https://arxiv.org/pdf/2110.00128v4.pdf)
+- (IROS 2022)[ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments](https://arxiv.org/pdf/2203.03923v1.pdf)
 # Researchers
-
-## 🥼1. Berta Bescos
-
-> **主页：[谷歌学术](https://scholar.google.hk/citations?user=8koVpHwAAAAJ&hl=it) | [个人主页](https://bertabescos.github.io/) | [GitHub](https://github.com/BertaBescos)**
-
-> **博士学位论文： [Visual slam in dynamic environments](https://zaguan.unizar.es/record/100672)**
-
-> **代表性工作**
-
-- **[1]** Bescos B, Fácil J M, Civera J, et al. [DynaSLAM: Tracking, mapping, and inpainting in dynamic scenes](https://arxiv.org/pdf/1806.05620.pdf)[J]. IEEE Robotics and Automation Letters, **2018**, 3(4): 4076-4083.
-- **[2]** Bescos B, Neira J, Siegwart R, et al. [Empty cities: Image inpainting for a dynamic-object-invariant space](https://arxiv.org/pdf/1809.10239.pdf)[C]//2019 International Conference on Robotics and Automation (ICRA). IEEE, **2019**: 5460-5466.
-- **[3]** Bescos B, Cadena C, Neira J. [Empty cities: A dynamic-object-invariant space for visual SLAM](https://arxiv.org/pdf/2010.07646.pdf)[J]. IEEE Transactions on Robotics, **2020**, 37(2): 433-451.
-- **[4]** Bescos B, Campos C, Tardós J D, et al. [DynaSLAM II: Tightly-coupled multi-object tracking and SLAM](https://arxiv.org/pdf/2010.07820.pdf)[J]. IEEE Robotics and Automation Letters, **2021**, 6(3): 5191-5198.
-
-## 🥼2. Yubao Liu
-
-[Walk Into AI World](https://www.ybliu.com/)
-
-> 主页：[谷歌学术](https://scholar.google.com/citations?user=P4M6ru0AAAAJ&hl=zh-CN) | [GitHub](https://github.com/yubaoliu)
-
-> 代表性工作：
-
-1. RDS-SLAM: real-time dynamic SLAM using semantic segmentation methods
-2. KMOP-vSLAM: Dynamic Visual SLAM for RGB-D Cameras using K-means and OpenPose
-3. RDMO-SLAM: Real-time Visual SLAM for Dynamic Environments using Semantic Label Prediction with Optical Flow
-#### 3. Guoquan Huang(SLAMMOT)
-
-
-#### 4. Shenshao Jie(MOT)
+TBD
