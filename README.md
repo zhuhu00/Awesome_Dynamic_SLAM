@@ -16,6 +16,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 # Dynamic Object Detection and *Removal*
 
+- [Dynablox: Real-time Detection of Diverse Dynamic Objects in Complex  Environments](https://arxiv.org/pdf/2304.10049.pdf)
+  - Voxlobx的拓展
+
 - (IROS 2022)[CFP-SLAM: A Real-time Visual SLAM Based on Coarse-to-Fine Probability in Dynamic Environments](https://arxiv.org/pdf/2202.01938v2.pdf)
 
 - (IROS 2022) [DRG-SLAM: A Semantic RGB-D SLAM using Geometric Features for Indoor Dynamic Scene](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981238)
