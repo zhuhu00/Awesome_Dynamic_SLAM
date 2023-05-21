@@ -16,6 +16,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 # Dynamic Object Detection and *Removal*
 
+- https://github.com/KTH-RPL/DynamicMap_Benchmark
+  - benchmark
+
 - [Dynablox: Real-time Detection of Diverse Dynamic Objects in Complex  Environments](https://arxiv.org/pdf/2304.10049.pdf)
   - Voxlobx的拓展
 
