@@ -185,6 +185,9 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 
 # Dynamic Object Detection and ***Tracking***
 
+- Youngjae Min, Do-Un Kim, and Han-Lim Choi, "Kernel-Based 3-D Dynamic Occupancy Mapping with Particle Tracking," 2021 IEEE International Conference on Robotics and Automation (ICRA)  
+  - cod: https://github.com/youngjae-min/k3dom 
+
 - [DyOb-SLAM : Dynamic Object Tracking SLAM System (2022)](https://arxiv.org/pdf/2211.01941.pdf)
   - VDO-SLAM+DynaSLAM的结合。。。
 
