@@ -336,5 +336,6 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 
 - (IROS 2022) [ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments](https://arxiv.org/pdf/2203.03923v1.pdf)
 
-# Researchers
-TBD
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zhuhu00/Awesome_Dynamic_SLAM&type=Date)](https://star-history.com/#zhuhu00/Awesome_Dynamic_SLAM&Date)
