@@ -15,6 +15,8 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 - [**State of the Art on 3D Reconstruction with RGB-D Cameras**](https://www.cg.informatik.uni-siegen.de/data/Publications/2018/star1009-main.pdf). Michael Zollhöfer. Stanford University. 2018
 
 # Dynamic Object Detection and *Removal*
+- "Efficient Dynamic LiDAR Odometry for Mobile Robots with Structured Point Clouds" by Lichtenfeld, Daun, von Stryk (IROS 2024). [paper](https://arxiv.org/html/2411.18443v1) and [Github](https://github.com/tu-darmstadt-ros-pkg/dynamic_direct_lidar_odometry)
+
 
 - https://github.com/KTH-RPL/DynamicMap_Benchmark
   - benchmark
