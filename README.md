@@ -1,5 +1,9 @@
 # Awesome_Dynamic_SLAM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![GitHub stars](https://img.shields.io/github/stars/zhuhu00/Awesome_Dynamic_SLAM?style=for-the-badge&logo=github)](https://github.com/zhuhu00/Awesome_Dynamic_SLAM)
+
+[Interactive star history](https://star-history.com/#zhuhu00/Awesome_Dynamic_SLAM&Date) · [Alternative chart](https://starchart.cc/zhuhu00/Awesome_Dynamic_SLAM)
+
 The following papers focus on **SLAM in dynamic environments** and **life-long SLAM**. In dynamic environments, there are two kinds of robust SLAM: first is **detection & removal**, and the second is **detection & tracking**. Although mapping in dynamic environments is not my focus, I will also include some interesting articles.
 
 > **Vision** indicates the pipeline is built with a camera. Others are the same, such as **lidar**, **radar**, **sensor fusion**.
@@ -427,8 +431,17 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 
 - (IROS 2022) [ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments](https://arxiv.org/pdf/2203.03923v1.pdf)
 
-## GitHub Stars
+## Citation
 
-[![GitHub stars](https://img.shields.io/github/stars/zhuhu00/Awesome_Dynamic_SLAM?style=for-the-badge&logo=github)](https://github.com/zhuhu00/Awesome_Dynamic_SLAM)
+If you find this repository useful for your research, please consider citing it:
 
-[Interactive star history](https://star-history.com/#zhuhu00/Awesome_Dynamic_SLAM&Date) · [Alternative chart](https://starchart.cc/zhuhu00/Awesome_Dynamic_SLAM)
+```bibtex
+@misc{zhu2021awesome_dynamic_slam,
+  author    = {Hu Zhu},
+  title     = {{Awesome Dynamic SLAM}: A Curated List of Dynamic and Lifelong SLAM Resources},
+  year      = {2021},
+  publisher = {GitHub},
+  journal   = {GitHub repository},
+  url       = {https://github.com/zhuhu00/Awesome_Dynamic_SLAM}
+}
+```
