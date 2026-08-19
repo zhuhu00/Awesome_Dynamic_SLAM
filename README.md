@@ -22,13 +22,21 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 - (arXiv 2026) [DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation](https://arxiv.org/abs/2605.02759) — integrates stochastic socially-aware motion priors into GraphSLAM; [code and simulator](https://github.com/makriot/dynoslam).
 - (arXiv 2026) [A Stereo Visual SLAM System Using Object-Level Motion Estimation and Geometric Filtering Based on Cross Disparity](https://arxiv.org/abs/2607.02005) — OCD-SLAM combines stereo geometric filtering, 3D object detection, and tracking.
 - (arXiv 2026) [LST-SLAM: A Stereo Thermal SLAM System for Kilometer-Scale Dynamic Environments](https://arxiv.org/abs/2602.20925) — thermal feature learning, dynamic feature suppression, loop closure, and global optimization.
+- (IROS 2026) [PLED-VINS: A Point-Line Event-Based Visual Inertial SLAM for Dynamic Environments](https://arxiv.org/abs/2607.07374) — combines temporal and geometric reliability to suppress moving-object observations from an event camera.
+- (ICRA 2026) [GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments](https://arxiv.org/abs/2604.12837) — semantic-agnostic motion modeling for robust tracking and dense reconstruction without depth input.
+- (Pattern Recognition 2026) [RGD-SLAM: Robust Gaussian Splatting SLAM for Dynamic Environments](https://doi.org/10.1016/j.patcog.2026.113071) — adaptive motion weighting and visibility-aware keyframing for RGB-D tracking and static reconstruction; [code](https://github.com/00Haocheng/RGD-SLAM).
+- (arXiv 2026) [DL-SLAM: Enabling High-Fidelity Gaussian Splatting SLAM in Dynamic Environments based on Dual-Level Probability](https://arxiv.org/abs/2607.01860) — fuses pixel- and object-level motion probabilities to retain useful constraints while removing dynamic Gaussians.
+- (arXiv 2026) [DAGS-SLAM: Dynamic-Aware 3DGS SLAM via Spatiotemporal Motion Probability and Uncertainty-Aware Scheduling](https://arxiv.org/abs/2602.21644) — maintains motion probability per Gaussian and invokes semantic processing only when uncertainty requires it.
+- (arXiv 2026) [RADIO-ViPE: Online Tightly Coupled Multi-Modal Fusion for Open-Vocabulary Semantic SLAM in Dynamic Environments](https://arxiv.org/abs/2604.26067) — tightly couples monocular geometry, vision, and language while handling moving and rearranged objects; [code](https://github.com/SridharSola/RADIO-ViPE).
+- (arXiv 2026) [Dream-SLAM: Dreaming the Unseen for Active SLAM in Dynamic Environments](https://arxiv.org/abs/2602.21967) — uses predicted cross-temporal views and structures for mapping and long-horizon exploration.
+- (RSS Workshop 2026) [MoPe: Motion Permanence for Robust Monocular Gaussian Mapping in Dynamic Environments](https://arxiv.org/abs/2606.29237) — propagates historical motion probabilities to prevent paused or reappearing objects from contaminating the map.
 - (IEEE T-RO 2025) [DynoSAM: Open-Source Smoothing and Mapping Framework for Dynamic SLAM](https://arxiv.org/abs/2501.11893) — factor-graph formulations for camera, object motion, and structure estimation; [ROS 2 code](https://github.com/ACFR-RPG/DynOSAM).
 - (IEEE RA-L 2026) [Online Dynamic SLAM with Incremental Smoothing and Mapping](https://arxiv.org/abs/2509.08197) — incremental optimization for online dynamic SLAM; implemented in [DynoSAM](https://github.com/ACFR-RPG/DynOSAM).
 - (CVPR 2025) [WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments](https://arxiv.org/abs/2504.03886) — uncertainty-guided removal of dynamic distractors without predefined object categories; [code](https://github.com/GradientSpaces/WildGS-SLAM).
 - (ICCV 2025) [DyGS-SLAM: Real-Time Accurate Localization and Gaussian Reconstruction for Dynamic Scenes](https://openaccess.thecvf.com/content/ICCV2025/html/Hu_DyGS-SLAM_Real-Time_Accurate_Localization_and_Gaussian_Reconstruction_for_Dynamic_Scenes_ICCV_2025_paper.html) — dynamic feature detection, corrected object masks, and adaptive feature densification.
 - (IROS 2025) [Embracing Dynamics: Dynamics-Aware 4D Gaussian Splatting SLAM](https://arxiv.org/abs/2504.04844) — represents temporal changes directly with 4D Gaussians; the [D4DGS-SLAM project repository](https://github.com/zhicongsun/D4DGS-SLAM) releases its differentiable 4D Gaussian rasterizer.
 - (ICRA 2025) [Dy3DGS-SLAM: Monocular 3D Gaussian Splatting SLAM for Dynamic Environments](https://arxiv.org/abs/2506.05965) — combines optical-flow and depth masks for monocular dynamic tracking and rendering.
-- (arXiv 2025) [ADD-SLAM: Adaptive Dynamic Dense SLAM with Gaussian Splatting](https://arxiv.org/abs/2505.19420) — discovers dynamics through scene consistency without predefined semantic categories.
+- (arXiv 2025/2026 revision) [CAD-SLAM: Consistency-Aware Dynamic SLAM with Dynamic-Static Decoupled Mapping](https://arxiv.org/abs/2505.19420) — detects category-agnostic motion from cross-view and cross-time inconsistencies and models dynamic content with temporal Gaussians.
 - (ICME 2025) [DyPho-SLAM: Real-Time Photorealistic SLAM in Dynamic Environments](https://arxiv.org/abs/2509.00741) — resource-efficient mask refinement and adaptive feature extraction for tracking and mapping.
 - (arXiv 2025) [D2GSLAM: 4D Dynamic Gaussian Splatting SLAM](https://arxiv.org/abs/2512.09411) — combines static 3D Gaussians and dynamic 4D Gaussians for joint reconstruction and camera tracking.
 - (PRCV 2025) [GeneA-SLAM2: Dynamic SLAM with AutoEncoder-Preprocessed Genetic Keypoints Resampling and Depth Variance-Guided Dynamic Region Removal](https://doi.org/10.1007/978-981-95-5740-0_7) — real-time RGB-D SLAM without a GPU; [code](https://github.com/qingshufan/GeneA-SLAM2) and dataset are available.
@@ -37,15 +45,41 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 - (ICCV 2025) [4D Gaussian Splatting SLAM](https://arxiv.org/abs/2503.16710) — incrementally tracks camera poses and reconstructs static and dynamic Gaussian radiance fields; [code](https://github.com/yanyan-li/4DGS-SLAM).
 - (IROS 2025) [NGD-SLAM: Towards Real-Time Dynamic SLAM without GPU](https://arxiv.org/abs/2405.07392) — CPU-only dynamic visual SLAM using mask propagation and hybrid feature/flow tracking; [code](https://github.com/yuhaozhang7/NGD-SLAM).
 - (IROS 2025) [Dynamic-LIO: LiDAR-Inertial Odometry in Dynamic Driving Scenarios using Label Consistency Detection](https://arxiv.org/abs/2407.03590) — dynamic-aware LiDAR-inertial odometry with loop closure; [code](https://github.com/ZikangYuan/dynamic_lio).
+- (IEEE T-RO 2025) [PG-SLAM: Photo-realistic and Geometry-aware RGB-D SLAM in Dynamic Environments](https://arxiv.org/abs/2411.15800) — jointly maps rigid and non-rigid foreground objects, reconstructs the static background, and localizes the camera.
+- (IEEE RA-L 2025) [SDD-SLAM: Semantic-Driven Dynamic SLAM With Gaussian Splatting](https://doi.org/10.1109/LRA.2025.3561565) — handles both actively and passively dynamic objects through semantic Gaussians and object-level density control.
+- (IEEE RA-L 2025) [DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians](https://arxiv.org/abs/2503.02223) — jointly estimates object poses and reconstructs multiple object shapes online; [code and datasets](https://github.com/LiHaoy-ux/DQO-MAP).
+- (IEEE T-MM 2025) [CAD-Mesher: A Convenient, Accurate, Dense Mesh-based Mapping Module in SLAM for Dynamic Environments](https://arxiv.org/abs/2408.05981) — a LiDAR-odometry-compatible module for clean static mesh mapping; [code](https://github.com/Yaepiii/CAD-Mesher).
+- (ICRA 2025) [GARAD-SLAM: 3D Gaussian Splatting for Real-Time Anti Dynamic SLAM](https://arxiv.org/abs/2502.03228) — maps Gaussian-level dynamic labels back to tracking and penalizes dynamic Gaussians during mapping; [release repository](https://github.com/DrLi-Ming/GARAD-SLAM) (source pending).
+- (ICRA 2025) [Gassidy: Gaussian Splatting SLAM in Dynamic Environments](https://doi.org/10.1109/ICRA55743.2025.11127678) — detects disturbances by analyzing photometric-geometric rendering-loss flows.
+- (ICRA 2025) [DVN-SLAM: Dynamic Visual Neural SLAM Based on Local-Global Encoding](https://arxiv.org/abs/2403.11776) — real-time neural implicit mapping with fused global structure, local detail, and dynamic-scene robustness.
+- (ICRA 2025) [JPG-SLAM: Joint Point-Gaussian Splatting Representation for Dense Dynamic SLAM](https://doi.org/10.1109/ICRA55743.2025.11127881) — combines point-based tracking with Gaussian dense scene representation.
+- (ACM MM 2025) [SLAM-X: Generalizable Dynamic Removal for NeRF and Gaussian Splatting SLAM](https://doi.org/10.1145/3746027.3754971) — a plug-and-play zero-shot segmentation and optical-flow module for multiple dense SLAM frameworks; [release repository](https://github.com/DrLi-Ming/SLAM-X) (source pending).
+- (arXiv 2025) [LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering](https://arxiv.org/abs/2510.22669) — LiDAR-visual dynamic masking and scale-stable outdoor reconstruction; [partial code release](https://github.com/zwk0901/LVD_GS-SLAM).
+- (arXiv 2025) [UP-SLAM: Adaptively Structured Gaussian SLAM with Uncertainty Prediction in Dynamic Environments](https://arxiv.org/abs/2505.22335) — training-free open-set motion uncertainty with parallel tracking and mapping; [project page](https://aczheng-cai.github.io/up_slam.github.io/).
+- (arXiv 2025) [VAR-SLAM: Visual Adaptive and Robust SLAM for Dynamic Environments](https://arxiv.org/abs/2510.16205) — combines semantic filtering for known movers with an online adaptive robust loss for unknown ones; [release repository](https://github.com/iit-DLSLab/VAR-SLAM) (source pending).
+- (arXiv 2025) [IL-SLAM: Intelligent Line-assisted SLAM Based on Feature Awareness for Dynamic Environments](https://arxiv.org/abs/2509.02972) — introduces line features only when dynamic filtering leaves too few reliable point features.
+- (arXiv 2025) [SR-SLAM: Scene-reliability Based RGB-D SLAM in Diverse Environments](https://arxiv.org/abs/2509.01111) — adapts dynamic-region filtering, pose refinement, and keyframe selection to estimated scene reliability.
+- (arXiv 2025) [IDY-VINS: A Visual-Inertial Motion Prior SLAM for Dynamic Environments](https://arxiv.org/abs/2503.23429) — uses inertial motion priors and adaptive bundle-adjustment residuals to reject dynamic landmarks.
+- (RCAR 2025) [Adaptive Prior Scene-Object SLAM for Dynamic Environments](https://arxiv.org/abs/2507.21709) — assesses frame and scene reliability and reuses trusted frames to correct pose drift.
+- (arXiv 2025) [STAMICS: Splat, Track And Map with Integrated Consistency and Semantics for Dense RGB-D SLAM](https://arxiv.org/abs/2503.21425) — combines Gaussian reconstruction, temporally consistent graph clustering, and open-vocabulary semantics.
+- (arXiv 2025) [DYNEMO-SLAM: Dynamic Entity and Motion-Aware 3D Scene Graph SLAM](https://arxiv.org/abs/2503.02050) — jointly optimizes robot motion, dynamic entity poses, and scene structure rather than treating all movers as outliers.
 
 ## Lifelong Mapping and Localization
 
+- (ICRA 2026) [Lifelong Localization in Dynamic Indoor Environments Combining Odometry with Sparse Distance Sampling](https://arxiv.org/abs/2607.17852) — provably convergent localization using odometry and only a small number of range samples, with learned handling of environmental change.
+- (arXiv 2026) [Change-Robust Online Spatial-Semantic Topological Mapping](https://arxiv.org/abs/2605.02227) — a bounded multi-hypothesis topological representation for lighting changes, furniture rearrangement, loop closures, and kidnapped-robot recovery.
 - (ICRA 2025) [ELite: Ephemerality Meets LiDAR-Based Lifelong Mapping](https://arxiv.org/abs/2502.13452) — multi-session alignment, dynamic-object removal, and map updating using two-timescale ephemerality; [code](https://github.com/dongjae0107/ELite).
 - (IEEE T-IM 2025) [LL-Localizer: A Lifelong Localization System Based on Dynamic i-Octree](https://arxiv.org/abs/2504.01583) — incremental map loading and updating across changed and unmapped areas; [simplified demo](https://github.com/M-Evanovic/LL-Localizer).
 
 ## Dynamic Object Detection and Tracking
 
 - (2025) [LV-DOT: LiDAR-Visual Dynamic Obstacle Detection and Tracking for Autonomous Robot Navigation](https://arxiv.org/abs/2502.20607) — lightweight camera/LiDAR fusion for onboard detection and tracking; [ROS code](https://github.com/Zhefan-Xu/LV-DOT).
+
+## Related Robust Visual Odometry
+
+- (CVPR 2026) [OpenVO: Open-World Visual Odometry with Temporal Dynamics Awareness](https://arxiv.org/abs/2602.19035) — open-world temporal reasoning for robust odometry in scenes containing unknown motion; [code](https://github.com/PhucNDA/OpenVO).
+- (IEEE RA-L 2026) [MVOFormer: Flow-Semantic Transformer for Robust Monocular Visual Odometry](https://arxiv.org/abs/2606.16474) — combines dense motion and semantic cues to suppress dynamic distractors with zero-shot cross-domain generalization; [code](https://github.com/Sun-Shun/MVOFormer).
+- (CVPR 2025) [MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos](https://arxiv.org/abs/2412.04463) — estimates camera trajectories and consistent depth from dynamic, uncalibrated videos; [code](https://github.com/mega-sam/mega-sam).
 
 ## Datasets and Benchmarks
 
@@ -55,6 +89,11 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 - (IROS 2025) [M3DGR](https://github.com/sjtuyinjie/M3DGR) — multi-sensor ground-robot benchmark with dynamic people and systematically induced visual, LiDAR, wheel, and GNSS degradation; evaluates more than 40 SLAM systems.
 - (ICRA 2025) [M3DSS](https://github.com/NEUFS-MA/M3DSS) — multi-platform and multi-sensor SLAM dataset with event cameras, accurate ground truth, and dynamic urban driving sequences.
 - (2025) [SLAM&Render](https://arxiv.org/abs/2504.13713) — 40 synchronized RGB-D, IMU, kinematic, and pose sequences with lighting changes, occlusions, and object rearrangements; [benchmark repository](https://github.com/samuel-cerezo/SLAM-Render).
+- (CVPR 2026) [Ghost-FWL](https://arxiv.org/abs/2603.28224) — 24K mobile full-waveform LiDAR frames with billions of peak-level labels for ghost detection and removal; [dataset and code](https://github.com/Keio-CSG/Ghost-FWL).
+- (2026) [MotionScape](https://arxiv.org/abs/2604.07991) — more than 30 hours of 4K UAV video with 6-DoF trajectories and text descriptions under highly dynamic camera motion; [benchmark repository](https://github.com/Thelegendzz/MotionScape) (partial public release).
+- (2026) [HERCULES](https://arxiv.org/abs/2606.22756) — open-source heterogeneous UAV/UGV simulation and a kilometer-scale SLAM benchmark across dynamic desert, forest, and city environments; [project page](https://lunarlab-gatech.github.io/HERCULES/).
+- (ICRA 2025) [DiTer++](https://arxiv.org/abs/2412.05839) — multi-robot, multi-modal, multi-session SLAM data across diverse outdoor terrain; [dataset and tools](https://github.com/sparolab/DiTer-plusplus).
+- (IEEE T-RO 2025) [ROVER](https://arxiv.org/abs/2412.02506) — a multi-season outdoor visual SLAM benchmark covering illumination, weather, vegetation, and structural changes; [dataset](https://iis-esslingen.github.io/rover/) and [evaluation code](https://github.com/iis-esslingen/rover_benchmark).
 
 # Related survey papers:
 
@@ -388,6 +427,8 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 
 - (IROS 2022) [ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments](https://arxiv.org/pdf/2203.03923v1.pdf)
 
-## Star History
+## GitHub Stars
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zhuhu00/Awesome_Dynamic_SLAM&type=Date)](https://star-history.com/#zhuhu00/Awesome_Dynamic_SLAM&Date)
+[![GitHub stars](https://img.shields.io/github/stars/zhuhu00/Awesome_Dynamic_SLAM?style=for-the-badge&logo=github)](https://github.com/zhuhu00/Awesome_Dynamic_SLAM)
+
+[Interactive star history](https://star-history.com/#zhuhu00/Awesome_Dynamic_SLAM&Date) · [Alternative chart](https://starchart.cc/zhuhu00/Awesome_Dynamic_SLAM)
