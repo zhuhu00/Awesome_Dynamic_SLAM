@@ -6,6 +6,40 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 
 ------
 
+# 2025–2026 Updates
+
+> Last updated: August 2026. Entries below link to the paper and the authors' project or code repository when available.
+
+## Dynamic SLAM and 4D Mapping
+
+- (CVPR 2026) [Dynamic Visual SLAM using a General 3D Prior](https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_Dynamic_Visual_SLAM_using_a_General_3D_Prior_CVPR_2026_paper.html) — monocular SLAM using feed-forward 3D priors for motion segmentation and depth; [repository and demo](https://github.com/PRBonn/Pi3MOS-SLAM).
+- (CVPR 2026 Highlight) [Flow4DGS-SLAM: Optical Flow-Guided 4D Gaussian Splatting SLAM](https://arxiv.org/abs/2604.22339) — category-agnostic motion decomposition and efficient dynamic reconstruction; [code](https://github.com/wangys16/Flow4DGS-SLAM).
+- (CVPR Findings 2026) [RU4D-SLAM: Reweighting Uncertainty in Gaussian Splatting SLAM for 4D Scene Reconstruction](https://arxiv.org/abs/2602.20807) — uncertainty-aware tracking and dynamic 4D mapping; [code](https://github.com/CNU-Bot-Group/ru4dslam).
+- (WACV 2026) [DynaGSLAM: Real-Time Gaussian-Splatting SLAM for Online Rendering, Tracking, Motion Predictions of Moving Objects](https://arxiv.org/abs/2503.11979) — jointly estimates ego motion and models moving objects; [code](https://github.com/BlarkLee/DynaGSLAM_official).
+- (IEEE RA-L 2026) [DOGL-SLAM: Dynamic Object-Level SLAM via Joint Gaussian-Landmark Tracking](https://doi.org/10.1109/LRA.2025.3641131) — object-level tracking with a Gaussian map; [code and evaluation](https://github.com/NKU-MobFly-Robotics/DOGL-SLAM).
+- (IEEE T-RO 2025) [DynoSAM: Open-Source Smoothing and Mapping Framework for Dynamic SLAM](https://arxiv.org/abs/2501.11893) — factor-graph formulations for camera, object motion, and structure estimation; [ROS 2 code](https://github.com/ACFR-RPG/DynOSAM).
+- (IEEE RA-L 2026) [Online Dynamic SLAM with Incremental Smoothing and Mapping](https://arxiv.org/abs/2509.08197) — incremental optimization for online dynamic SLAM; implemented in [DynoSAM](https://github.com/ACFR-RPG/DynOSAM).
+- (CVPR 2025) [WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments](https://arxiv.org/abs/2504.03886) — uncertainty-guided removal of dynamic distractors without predefined object categories; [code](https://github.com/GradientSpaces/WildGS-SLAM).
+- (CVPR 2025) [4DTAM: Non-Rigid Tracking and Mapping via Dynamic Surface Gaussians](https://arxiv.org/abs/2505.22859) — joint camera tracking and non-rigid 4D reconstruction from RGB-D; [code](https://github.com/muskie82/4dtam).
+- (ICCV 2025) [4D Gaussian Splatting SLAM](https://arxiv.org/abs/2503.16710) — incrementally tracks camera poses and reconstructs static and dynamic Gaussian radiance fields; [code](https://github.com/yanyan-li/4DGS-SLAM).
+- (IROS 2025) [NGD-SLAM: Towards Real-Time Dynamic SLAM without GPU](https://arxiv.org/abs/2405.07392) — CPU-only dynamic visual SLAM using mask propagation and hybrid feature/flow tracking; [code](https://github.com/yuhaozhang7/NGD-SLAM).
+- (IROS 2025) [Dynamic-LIO: LiDAR-Inertial Odometry in Dynamic Driving Scenarios using Label Consistency Detection](https://arxiv.org/abs/2407.03590) — dynamic-aware LiDAR-inertial odometry with loop closure; [code](https://github.com/ZikangYuan/dynamic_lio).
+
+## Lifelong Mapping and Localization
+
+- (ICRA 2025) [ELite: Ephemerality Meets LiDAR-Based Lifelong Mapping](https://arxiv.org/abs/2502.13452) — multi-session alignment, dynamic-object removal, and map updating using two-timescale ephemerality; [code](https://github.com/dongjae0107/ELite).
+- (IEEE T-IM 2025) [LL-Localizer: A Lifelong Localization System Based on Dynamic i-Octree](https://arxiv.org/abs/2504.01583) — incremental map loading and updating across changed and unmapped areas; [simplified demo](https://github.com/M-Evanovic/LL-Localizer).
+
+## Dynamic Object Detection and Tracking
+
+- (2025) [LV-DOT: LiDAR-Visual Dynamic Obstacle Detection and Tracking for Autonomous Robot Navigation](https://arxiv.org/abs/2502.20607) — lightweight camera/LiDAR fusion for onboard detection and tracking; [ROS code](https://github.com/Zhefan-Xu/LV-DOT).
+
+## Datasets and Benchmarks
+
+- (CVPR 2025) [Wild-SLAM](https://huggingface.co/datasets/gradient-spaces/Wild-SLAM) — dynamic monocular/RGB-D sequences with mocap ground truth plus in-the-wild iPhone sequences; evaluation and download scripts are provided with [WildGS-SLAM](https://github.com/GradientSpaces/WildGS-SLAM).
+- (CVPR 2025) [Sim4D](https://github.com/baegwangbin/sim4d) — synthetic non-rigid 4D-SLAM benchmark with camera poses, time-varying geometry, color, and rendering scripts.
+- (IROS 2025) [M3DGR](https://github.com/sjtuyinjie/M3DGR) — multi-sensor ground-robot benchmark with dynamic people and systematically induced visual, LiDAR, wheel, and GNSS degradation; evaluates more than 40 SLAM systems.
+
 # Related survey papers:
 
 - [**A survey: which features are required for dynamic visual simultaneous localization and mapping?**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8285453/pdf/42492_2021_Article_86.pdf). Zewen Xu, CAS. 2021
