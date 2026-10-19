@@ -12,7 +12,7 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 
 # 2025–2026 Updates
 
-> Last updated: August 2026. Entries below link to the paper and the authors' project or code repository when available.
+> Last updated: October 2026. Entries below link to the paper and the authors' project or code repository when available.
 
 ## Dynamic SLAM and 4D Mapping
 
@@ -74,6 +74,7 @@ The following papers focus on **SLAM in dynamic environments** and **life-long S
 - (arXiv 2026) [Change-Robust Online Spatial-Semantic Topological Mapping](https://arxiv.org/abs/2605.02227) — a bounded multi-hypothesis topological representation for lighting changes, furniture rearrangement, loop closures, and kidnapped-robot recovery.
 - (ICRA 2025) [ELite: Ephemerality Meets LiDAR-Based Lifelong Mapping](https://arxiv.org/abs/2502.13452) — multi-session alignment, dynamic-object removal, and map updating using two-timescale ephemerality; [code](https://github.com/dongjae0107/ELite).
 - (IEEE T-IM 2025) [LL-Localizer: A Lifelong Localization System Based on Dynamic i-Octree](https://arxiv.org/abs/2504.01583) — incremental map loading and updating across changed and unmapped areas; [simplified demo](https://github.com/M-Evanovic/LL-Localizer).
+- (IEEE T-RO 2026) [OpenNavMap: Multi-Session Appearance-Based Topometric Mapping for Scalable Visual Navigation](https://arxiv.org/abs/2601.12291) — structure-free topometric mapping and multi-session visual localization for long-term navigation; [code](https://github.com/RPL-CS-UCL/OpenNavMap).
 
 ## Dynamic Object Detection and Tracking
 
